@@ -7,18 +7,18 @@ $(document).ready(function () {
         //piilotetaan alueet klikatessa
         $('.content').hide();
         //n‰ytet‰‰n haluttu alue klikatessa
-        $('#one').show();
+        $('#one').show('slow');
     });
     $('#kaks').on('click', function () {
         //piilotetaan alueet klikatessa
         $('.content').hide();
         //n‰ytet‰‰n haluttu alue klikatessa
-        $('#two').show();
+        $('#two').show('normal');
     });
     $('#kol').on('click', function () {
         //piilotetaan alueet klikatessa
         $('.content').hide();
         //n‰ytet‰‰n haluttu alue klikatessa
-        $('#three').show();
+        $('#three').show('fast');
     });
 });
