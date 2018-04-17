@@ -1,0 +1,16 @@
+/* styles */
+
+body	{
+	font-family: Arial, sans-serif;
+	}
+
+
+.navi	{
+	display: inline;
+	list-style: none;
+	padding: 10px 10px 0 0;
+	}
+
+.clearfloat	{
+	clear: both;
+	}
